@@ -2,7 +2,7 @@ import "./style.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="text-center mt-6	">
       <a
           href="https://www.github.com/gadou86"
           target="_blank"
