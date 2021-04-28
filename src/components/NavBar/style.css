@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/4387b781fdcc752283b72bdc76757065?family=All+Round+Gothic);
+
 .navbar {
   height: 100%;
 }
@@ -8,12 +10,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 10px;
+
 }
 
+.logo a {
+  font-size: 42px;
+  font-weight: bold;
+  color: #313131;
+  text-decoration: none;
+}
 .logo {
+  font-family: "All Round Gothic"; 
   display: flex;
   max-width: 130px;
   height: 100%;
+  font-weight: bold;
 }
 
 .logo img {
@@ -46,6 +58,7 @@
 }
 
 .list-wrapper ul li a {
+  font-family: "All Round Gothic"; 
   display: block;
   font-size: 24px;
   padding: 10px 0;
@@ -53,6 +66,7 @@
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
+
 
 .list-wrapper ul li a:hover {
   color: #000000;

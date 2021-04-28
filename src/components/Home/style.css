@@ -14,7 +14,13 @@
 }
 
 .home .title p {
+  font-family: "All Round Gothic"; 
   line-height: 50px;
+  line-height: 1;
+}
+
+.second-par {
+  color: #313131;
 }
 
 .home .title button {

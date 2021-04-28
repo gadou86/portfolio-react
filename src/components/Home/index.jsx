@@ -7,11 +7,11 @@ const Home = () => {
     <div className="home">
       <div className="title">
         <h1>
-          <p>gad dayan</p>
-          <p>Frontend developer</p>
+          {/* <p>gad dayan</p> */}
+          <p className="second-par">Frontend developer</p>
         </h1>
         <Link to="about">
-          <button>More Info</button>
+          {/* <button>More Info</button> */}
         </Link>
       </div>
       <div className="person">

@@ -32,10 +32,7 @@ const NavBar = () => {
       <div className="nav-wrapper">
         <div className="logo">
           <Link to="/">
-            <img
-              src="https://github.com/DwinaTech/public-images/blob/main/DwinaTech-brand.png?raw=true"
-              alt="brand"
-            />
+          gaddayan.
           </Link>
         </div>
         <div className="list-wrapper">
@@ -61,7 +58,7 @@ const NavBar = () => {
               <Link
                 to="/"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/" && "#4071f4" }}
+                style={{ color: location.pathname === "/" && "#ff75a0" }}
               >
                 Home
               </Link>
@@ -70,7 +67,7 @@ const NavBar = () => {
               <Link
                 to="/about"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/about" && "#4071f4" }}
+                style={{ color: location.pathname === "/about" && "#ff75a0" }}
               >
                 About
               </Link>
@@ -79,7 +76,7 @@ const NavBar = () => {
               <Link
                 to="/skills"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/skills" && "#4071f4" }}
+                style={{ color: location.pathname === "/skills" && "#ff75a0" }}
               >
                 Skills
               </Link>
@@ -88,7 +85,7 @@ const NavBar = () => {
               <Link
                 to="/works"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/works" && "#4071f4" }}
+                style={{ color: location.pathname === "/works" && "#ff75a0" }}
               >
                 Works
               </Link>
@@ -97,7 +94,7 @@ const NavBar = () => {
               <Link
                 to="/contact"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/contact" && "#4071f4" }}
+                style={{ color: location.pathname === "/contact" && "#ff75a0" }}
               >
                 Contact
               </Link>
