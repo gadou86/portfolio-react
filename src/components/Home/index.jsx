@@ -11,7 +11,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="person bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 shadow-xl		">
-        <img className="shadow-2xl border-gray-900 transform translate-x-4 translate-y-4	"
+        <img className="shadow-2xl border-gray-900 transform translate-x-4 translate-y-4 backdrop-filter brightness-100 	"
           src={`${process.env.PUBLIC_URL}/gad.png`}
           alt="person picture"
         />
