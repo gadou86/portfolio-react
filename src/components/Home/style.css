@@ -13,6 +13,11 @@
   font-family: "Righteous", cursive;
 }
 
+.title h1 {
+  font-family: "All Round Gothic"; 
+
+}
+
 .home .title p {
   font-family: "All Round Gothic"; 
   line-height: 50px;
@@ -50,6 +55,8 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  
   .home .title,
   .home .person {
     width: 50%;
@@ -59,5 +66,30 @@
   }
   .home .person img {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    text-align: center;
+  }
+  .home {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .home .title,
+  .home .person {
+    width: 50%;
+    margin-top: 0;
+    text-align: left;
+    font-size: 25px;
+  }
+
+
+ 
+
+
+.person img {
+    display: none;
   }
 }
