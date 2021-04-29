@@ -92,9 +92,19 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/contact"
+                to="/project"
                 onClick={handleClose}
                 style={{ color: location.pathname === "/contact" && "#ff75a0" }}
+              >
+                Projects
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to="/contact"
+                onClick={handleClose}
+                style={{ color: location.pathname === "/Projects" && "#ff75a0" }}
               >
                 Contact
               </Link>

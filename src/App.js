@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import Skills from './components/Skills'
 import Works from './components/Works'
 import Contact from './components/Contact'
+import Project from './components/Project'
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/works" component={Works} />
+        <Route exact path="/project" component={Project} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
       <Footer />
