@@ -100,6 +100,16 @@ const NavBar = () => {
               </Link>
             </li>
 
+            {/* <li>
+              <Link
+                to="/post"
+                onClick={handleClose}
+                style={{ color: location.pathname === "/post" && "#ff75a0" }}
+              >
+                Posts
+              </Link>
+            </li> */}
+
             <li>
               <Link
                 to="/contact"

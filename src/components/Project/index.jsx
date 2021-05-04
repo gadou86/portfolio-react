@@ -1,6 +1,7 @@
 import React from 'react';
 import "./style.css";
 import AppM from './Modal'
+import { Link, useLocation } from "react-router-dom";
 
 import {Card} from 'react-bootstrap';
 
@@ -19,39 +20,52 @@ const Project = () => {
     {
       image: "https://images.unsplash.com/photo-1564865878688-9a244444042a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       title: "JoinCodeBuddies",
-      text: ""
+      text: "",
+      link: "https://www.joincodebuddies.com"
     },
     {
       image: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       title: "Sushi Saizen",
-      text: ""
+      text: "",
+      link: "https://www.joincodebuddies.com"
+
     },
     {
       image: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       title: "6000 Metropolitain",
-      text: ""
+      text: "",
+      link: "https://www.joincodebuddies.com"
+
     },
     {
       image: "https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       title: "Eden Boucherie",
-      text: ""
+      text: "",
+      link: "https://www.joincodebuddies.com"
+
     },
     {
       image: "https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       title: "Facebook Clone",
-      text: ""
+      text: "",
+      link: "https://www.joincodebuddies.com"
+
     },
 
     {
       image: "https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       title: "ZcodeBuddie",
-      text: ""
+      text: "",
+      link: "https://www.joincodebuddies.com"
+
     },
 
     {
       image: "https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       title: "Portfolio",
-      text: ""
+      text: "",
+      link: "https://www.joincodebuddies.com"
+
     },
     
   ];
@@ -59,10 +73,16 @@ const Project = () => {
   const renderCard = (card, index) => {
     return(
       <div className="box">
+               
         <Card className="box-items">
+        <a href={card.link}>
+
         <Card.Img variant="top" src="holder.js/100px180" src={card.image}/>
+        </a>
+        
         <AppM />
           <Card.Body className="titi">
+ 
             <Card.Title style={customTitle}>{card.title}</Card.Title>
               <Card.Text>
                 {card.text}
@@ -84,3 +104,4 @@ const Project = () => {
 }
 
 export default Project;
+

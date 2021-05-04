@@ -9,7 +9,6 @@ import Contact from './components/Contact'
 import Project from './components/Project'
 
 
-
 import './App.css';
 
 function App() {
@@ -22,7 +21,10 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/works" component={Works} />
+
         <Route exact path="/project" component={Project} />
+        
+        {/* <Route exact path="/Post" component={Post} /> */}
         <Route exact path="/contact" component={Contact} />
       </Switch>
       <Footer />
