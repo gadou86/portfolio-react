@@ -49,7 +49,6 @@ const Project = () => {
   const renderCard = (card, index) => {
     return(
       <div className="box">
-               
         <Card className="box-items">
         <a href={card.link} target="_blank">
 
@@ -74,6 +73,7 @@ const Project = () => {
 
   return (
     <div className="Apps">
+      <h1>Proj<span>ects</span></h1> 
       <div className="grida">
         {cardInfo.map(renderCard)}
       </div>

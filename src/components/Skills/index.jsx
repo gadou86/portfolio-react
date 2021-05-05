@@ -4,7 +4,7 @@ const Skills = () => {
   return (
 
     <div className="container-skills">
-      <h1 className="title-section">Skills</h1>
+      <h1 className="title-section">Skills That pays the Bills</h1>
       <div className="cards">
         <div className="card ">
           <img src={`${process.env.PUBLIC_URL}/html.svg`} alt=""/>

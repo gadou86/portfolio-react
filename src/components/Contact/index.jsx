@@ -14,13 +14,14 @@ export const Contact = () => {
       ></iframe>
 
       <h4>Phone</h4>
-      <p>0141 000 0000</p>
+      <p>514-984-5792</p>
 
       <h4>Email</h4>
-      <p>email@grmail.com</p>
+      <p>gadou86@gmail.com</p>
 
       <h4>Address</h4>
-      <p>Greendyke St, Saltmarket, Glasgow G1 5DB</p>
+      <p>Somewhere in Montreal</p>
+  
     </div>
   )
 }

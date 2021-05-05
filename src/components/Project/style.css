@@ -64,6 +64,24 @@
   background-color: papayawhip;
 }
 
+.Apps h1 {
+  font-family: "All Round Gothic";
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.Apps h1 > span {
+  font-family: "All Round Gothic";
+  font-size: 3.5rem;
+  font-weight: lighter;
+  margin: 0;
+  pading: 0;
+  color: #ff75a0;
+  text-decoration: underline;
+}
+
 .Overlay {
   position: fixed;
   top: 0;
@@ -75,4 +93,11 @@
 
 .modal-header {
   color: blue;
+}
+
+@media(max-width: 992px) {
+  .card {
+    margin: 15px  98px;
+ 
+  }
 }

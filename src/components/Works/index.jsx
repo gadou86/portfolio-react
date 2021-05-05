@@ -5,9 +5,9 @@ export const Works = () => {
   return (
     <div className="works">
       <h1>Experiences</h1>
-      <p>Company: BBC</p>
-      <p>Role: Software engineer</p>
-      <p>Date: 2020 - on going</p>
+      <p>BlackDuckAgency</p>
+      <p>Role: Frontend Developer (Part Time)</p>
+      <p>Date: 2021 - on going</p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -18,9 +18,9 @@ export const Works = () => {
         mollit anim id est laborum.
       </p>
       <br />
-      <p>Company: STV</p>
+      <p>Freelancer</p>
       <p>Role: Front-end</p>
-      <p>Date: 2018 - 2020</p>
+      <p>Date: 2019 - on going</p>
       <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
@@ -36,6 +36,14 @@ export const Works = () => {
         quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
         voluptas nulla pariatur?
       </p>
+      <br/>
+
+      <h2 class="mb-3"><a href="https://drive.google.com/file/d/1eq3wG2bPWBCuKCIvLIyfVx102mTEwhvA/view?usp=sharing" target="_blank">
+        Download my Resume 
+      </a></h2>
+                
+                
+                
     </div>
   )
 }
