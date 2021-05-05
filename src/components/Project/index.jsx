@@ -10,63 +10,39 @@ import {Card} from 'react-bootstrap';
 const Project = () => {
 
   const customTitle = {
-    color: '#313131',
-    fontSize: "34",
-    fontWeight: "light",
+    color: '#325288',
+    fontSize: "54",
+    fontWeight: "bold",
     marginBottom: "24"
 };
 
   const cardInfo = [
     {
-      image: "https://images.unsplash.com/photo-1564865878688-9a244444042a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+      image: "https://i.imgflip.com/58aw5z.gif",
       title: "JoinCodeBuddies",
-      text: "",
-      link: "https://www.joincodebuddies.com"
-    },
-    {
-      image: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-      title: "Sushi Saizen",
-      text: "",
-      link: "https://www.joincodebuddies.com"
+      text: "Made with Html, Css,  Javascript, Rails",
+      link: "https://www.joincodebuddies.com",
+      code: "https://github.com/karinelegault/joincodebuddies"
 
     },
     {
-      image: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-      title: "6000 Metropolitain",
-      text: "",
-      link: "https://www.joincodebuddies.com"
+      image: "https://i.imgflip.com/58azpd.gif",
+      title: "Personal Portfolio",
+      text: "Made with Html, Css, JavaScript",
+      link: "https://gadou86.github.io/Portfolio/",
+      code: "https://github.com/gadou86/portfolioGad"
 
     },
     {
-      image: "https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-      title: "Eden Boucherie",
-      text: "",
-      link: "https://www.joincodebuddies.com"
-
-    },
-    {
-      image: "https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+      image: "https://imagizer.imageshack.com/img924/9247/Koyg0h.png",
       title: "Facebook Clone",
-      text: "",
-      link: "https://www.joincodebuddies.com"
+      text: "Made with React, Bootstrap, Firebase",
+      link: "",
+      code: "https://github.com/gadou86/fb-clone"
 
     },
 
-    {
-      image: "https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-      title: "ZcodeBuddie",
-      text: "",
-      link: "https://www.joincodebuddies.com"
 
-    },
-
-    {
-      image: "https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-      title: "Portfolio",
-      text: "",
-      link: "https://www.joincodebuddies.com"
-
-    },
     
   ];
 
@@ -75,20 +51,22 @@ const Project = () => {
       <div className="box">
                
         <Card className="box-items">
-        <a href={card.link}>
+        <a href={card.link} target="_blank">
 
         <Card.Img variant="top" src="holder.js/100px180" src={card.image}/>
         </a>
         
         <AppM />
           <Card.Body className="titi">
- 
             <Card.Title style={customTitle}>{card.title}</Card.Title>
-              <Card.Text>
+              <Card.Text className="container">
                 {card.text}
+              <a href={card.code} target="_blank">
+                <p>👉SOURCE CODE👈</p>
+              </a>                
               </Card.Text>
           </Card.Body>
-      </Card>
+        </Card>
       </div>
     )
   }

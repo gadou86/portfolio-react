@@ -52,7 +52,7 @@ function AppM(){
 
     return (
       <div style={bottom}>
-        <button style={buttonStyles} onClick={openModal}>Case Study</button>
+        {/* <button style={buttonStyles} onClick={openModal}>Case Study</button> */}
         <Modal
           isOpen={modalIsOpen}
           onAfterOpen={afterOpenModal}

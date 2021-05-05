@@ -40,8 +40,18 @@
   transform: scale(1.07);
 }
 
-.titi  {
+.titi {
+
   text-align: center;
+  
+  /* margin-top: 20px; */
+}
+
+
+.titi p{
+  font-size: 15px;
+  margin-top: 1px;;
+  color: #ff75a0;
   /* margin-top: 20px; */
 }
 
