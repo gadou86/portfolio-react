@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 
 import "./style.css";
 
+
 const Home = () => {
   return (
     <div className="home">
