@@ -42,6 +42,33 @@ const Project = () => {
 
     },
 
+    {
+      image: "https://imagizer.imageshack.com/img923/4723/ABQYNl.png",
+      title: "Sushi Saizen",
+      text: "Made with Wordpress",
+      link: "https://saizensushi.zcodebuddy.com/",
+      // code: "https://github.com/gadou86/fb-clone"
+
+    },
+
+    {
+      image: "https://imagizer.imageshack.com/img923/4923/eZpsyK.png",
+      title: "trdmrk | Printing Company",
+      text: "Made with Html, Css, JavaScript, API",
+      link: "http://oreben1.dreamhosters.com/trdmrk/#",
+      // code: "https://github.com/gadou86/fb-clone"
+
+    },
+
+    {
+      image: "https://imagizer.imageshack.com/img923/8545/gXefg5.png",
+      title: "My first Personal Project",
+      text: "Made with Html, Css, JavaScript",
+      link: "https://www.zcodebuddy.com",
+      // code: "https://github.com/gadou86/fb-clone"
+
+    },
+
 
     
   ];

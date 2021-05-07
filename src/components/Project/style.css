@@ -18,6 +18,8 @@
 
 }
 
+
+
 .box {
   display: flex;
   flex-wrap: wrap;
@@ -26,10 +28,10 @@
 .box-items {
   background-position: center center;
   background-size: cover;
-  border-radius: 10px 10px 10px 10px;
+  /* border-radius: 10px 10px 10px 10px; */
   overflow: hidden;
   width: 320px;
-  height: 280px;
+  max-height: 280px;
   max-height: 100vh;
   box-shadow: 0 5px 17px -7px rgba(0,0,0,0.75);  margin: 20px;
   cursor: pointer;
