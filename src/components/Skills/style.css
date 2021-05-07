@@ -33,13 +33,18 @@
 
 .title-section {
   font-weight: 800;
-    font-size: 30px;
+    font-size: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 2;
+    color: #e1e5ea;
     text-align: center;
     font-family: "All Round Gothic";
     text-decoration: underline;
+}
+
+.title-section span{
+  color: #e1e5ea;
 }
 
 .skills-paragraph {

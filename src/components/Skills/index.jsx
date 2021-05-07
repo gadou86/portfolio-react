@@ -4,50 +4,50 @@ const Skills = () => {
   return (
 
     <div className="container-skills">
-      <h1 className="title-section">Skills That pays the Bills</h1>
+      <h1 className="title-section">Skills That pays the <span>Bills</span></h1>
       <div className="cards">
         <div className="card ">
-          <img src={`${process.env.PUBLIC_URL}/html.svg`} alt=""/>
+          <img src={`${process.env.PUBLIC_URL}/htmlblue.svg`} alt=""/>
           <p className="skills-paragraph">Html</p>
         </div>
 
         <div className="card ">
-        <img src={`${process.env.PUBLIC_URL}/css1.svg`} alt=""/>
+        <img src={`${process.env.PUBLIC_URL}/css (1)blue.svg`} alt=""/>
           <p className="skills-paragraph">Css</p>
         </div>
 
         <div className="card ">
-        <img src={`${process.env.PUBLIC_URL}/javascript.svg`} alt=""/>
+        <img src={`${process.env.PUBLIC_URL}/javascriptblue.svg`} alt=""/>
           <p className="skills-paragraph">Js</p>
         </div>
 
         <div className="card ">
-          <img src={`${process.env.PUBLIC_URL}/bootstrap.svg`} alt=""/>
+          <img src={`${process.env.PUBLIC_URL}/bootstrapblue.svg`} alt=""/>
           <p className="skills-paragraph">Bootstrap</p>
         </div>
 
         <div className="card ">
-          <img src={`${process.env.PUBLIC_URL}/react.svg`} alt=""/>
+          <img src={`${process.env.PUBLIC_URL}/reactblue.svg`} alt=""/>
           <p className="skills-paragraph">React</p>
         </div>
 
         <div className="card ">
-            <img src={`${process.env.PUBLIC_URL}/ruby.svg`} alt=""/>
+            <img src={`${process.env.PUBLIC_URL}/rubyblue.svg`} alt=""/>
           <p className="skills-paragraph">Ruby</p>
         </div>
 
         <div className="card ">
-          <img src={`${process.env.PUBLIC_URL}/rails.svg`} alt=""/>
+          <img src={`${process.env.PUBLIC_URL}/railsblue.svg`} alt=""/>
           <p className="skills-paragraph">Rails</p>
         </div>
 
         <div className="card ">
-          <img src={`${process.env.PUBLIC_URL}/mysql.svg`} alt=""/>
+          <img src={`${process.env.PUBLIC_URL}/mysqlblue.svg`} alt=""/>
           <p className="skills-paragraph">MySQL</p>
         </div>
 
         <div className="card ">
-          <img src={`${process.env.PUBLIC_URL}/figma.svg`} alt=""/>
+          <img src={`${process.env.PUBLIC_URL}/figmablue.svg`} alt=""/>
           <p className="skills-paragraph">Figma</p>
         </div>
 
@@ -57,12 +57,12 @@ const Skills = () => {
         </div>
 
         <div className="card ">
-          <img src={`${process.env.PUBLIC_URL}/heroku.svg`} alt=""/>
+          <img src={`${process.env.PUBLIC_URL}/herokublue.svg`} alt=""/>
           <p className="skills-paragraph">Heroku</p>
         </div>
 
         <div className="card ">
-          <img src={`${process.env.PUBLIC_URL}/git.svg`} alt=""/>
+          <img src={`${process.env.PUBLIC_URL}/gitblue.svg`} alt=""/>
           <p className="skills-paragraph">Git</p>
         </div>
       </div>

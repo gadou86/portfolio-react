@@ -5,7 +5,9 @@ const About = () => {
         <div className="about mt-10">
             <h1>A Little about myself.</h1>
             <p>
-            Being an entrepreneur and a business owner of a successful Montreal base printing shop Instacustoms, made me acquire multiple leadership and problems solving skills. After eight years of growing my company, I’ve came to a harsh realization that it took over my life and I became less passionate about the printing field. As the famous quote said by Gertrude Stein “Money can’t buy happiness.” And I can positively agree to this. Therefore, I knew it was time for a new challenge. I decided to change my career path and put all of my knowledge to test. So I learned how to Code
+            Being an entrepreneur and a business owner of a successful Montreal base printing shop, Instacustoms, made me acquire multiple leadership and problem solving skills. After thirteen years of growing my company, I’ve came to a harsh realization that it took over my life and I became less passionate about the printing field. As the famous quote said by Gertrude Stein “Money can’t buy happiness.” And I can positively agree to this. Therefore, I knew it was time for a new challenge. I decided to change my career path and put all of my knowledge to test. I’ve always been tech savvy and wanted to be in the technology field. I was intrigued in what coding can do and build. I than started to take online courses on Udemy and various other learning platforms. My eagerness and perseverance gave me the passion of learning more and mastering a programming language.
+I enrolled in Le Wagon Montreal bootcamp 2020 to help me reinforce my coding skills and eventually find a position in a tech company as a full-stack developer.
+With my passion and drive for coding I am ready to dominate the programming world!
             </p>
             <br/>
             {/* <p>
@@ -16,7 +18,14 @@ const About = () => {
             <h3>Le Wagon</h3>
             <h3>Intense 24 weeks FullStack Developer</h3>
             <p>
-            Being an entrepreneur and a business owner of a successful Montreal base printing shop Instacustoms, made me acquire multiple leadership and problems solving skills. After eight years of growing my company, I’ve came to a harsh realization that it took over my life and I became less passionate about the printing field. As the famous quote said by Gertrude Stein “Money can’t buy happiness.” And I can positively agree to this. Therefore, I knew it was time for a new challenge. I decided to change my career path and put all of my knowledge to test. So I learned how to Code
+            Attended Le Wagon Montreal (Batch #517).
+24-week part-time intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
+SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
+production a clone of AirBnB and a Rails prototype of https://joincodebuddies.com (login: gad@email.com; password: 123456)
+
+cool feature: Chat feature, And Video feature on user dashboard
+
+My GitHub profile: http://www.github.com/gadou86
             </p>
             <br/>
             {/* <p>
