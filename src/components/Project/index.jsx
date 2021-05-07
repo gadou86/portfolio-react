@@ -10,10 +10,11 @@ import {Card} from 'react-bootstrap';
 const Project = () => {
 
   const customTitle = {
-    color: '#325288',
-    fontSize: "54",
-    fontWeight: "bold",
-    marginBottom: "24"
+    color: '#313131',
+    fontSize: "20px",
+    fontWeight: "normal",
+    marginBottom: "24",
+    padding: "5px"
 };
 
   const cardInfo = [
