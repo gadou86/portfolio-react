@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/4387b781fdcc752283b72bdc76757065?family=All+Round+Gothic);
+/* @import url(//db.onlinewebfonts.com/c/4387b781fdcc752283b72bdc76757065?family=All+Round+Gothic); */
 
 .navbar {
   height: 100%;
@@ -19,13 +19,13 @@
   font-weight: bold;
   color: #313131;
   text-decoration: none;
+  font-weight: 200;
 }
 .logo {
-  font-family: "All Round Gothic"; 
+  font-family: 'Roboto', sans-serif;  
   display: flex;
   max-width: 130px;
   height: 100%;
-  font-weight: bold;
 }
 
 .logo img {
@@ -58,8 +58,9 @@
 }
 
 .list-wrapper ul li a {
-  font-family: "All Round Gothic"; 
+  font-family: 'Roboto', sans-serif;  
   display: block;
+  font-weight: lighter;
   font-size: 24px;
   padding: 10px 0;
   color: #dddddd;
@@ -150,4 +151,10 @@
     justify-content: center;
     text-align:center;
 }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    margin-left: -80px;
+  }
 }

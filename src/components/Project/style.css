@@ -103,3 +103,16 @@
  
   }
 }
+
+@media (max-width: 400px) {
+  .box-items {
+    margin-left: -90px;
+    margin-bottom: 40px;
+
+  }
+
+  .Apps h1 {
+    margin-bottom: 40px;
+    margin-left: -30px;
+  }
+}

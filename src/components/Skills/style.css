@@ -96,3 +96,24 @@
     margin: 10px;
 }
 }
+
+@media (max-width: 400px) {
+  .title-section {
+    font-size: 24px;
+    width: 300px;
+    margin-left: -140px;
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+  }
+  
+  .cards {
+    width: 300px;
+    margin-left: -140px;
+    margin-top: 30px;
+  }
+
+  .title-section span{
+    color: #313131;
+  }
+}

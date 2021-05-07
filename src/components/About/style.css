@@ -5,13 +5,15 @@
 .about h1 {
   margin-bottom: 20px;
   font-size: 2.5rem;;
-  font-family: "All Round Gothic";
+  font-family: 'Raleway', sans-serif;
 }
 
 .about p {
   font-size: 1rem;
   color: gray;
   margin-top: 9px;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .about h3 {
@@ -19,3 +21,9 @@
   color: #ff75a0;
 }
 
+@media (max-width: 400px) {
+  .about {
+    width: 300px;
+    margin-left: -70px;;
+  }
+}

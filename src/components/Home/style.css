@@ -10,17 +10,16 @@
   width: 100%;
   font-size: 18px;
   text-align: center;
-  font-family: "Righteous", cursive;
+  font-family: 'Raleway', sans-serif;  
 }
 
 .title h1 {
-  font-family: "Righteous"; 
-  
+  font-family: 'Raleway', sans-serif;  
 
 }
 
 .home .title p {
-  font-family: "All Round Gothic"; 
+  /* font-family: "All Round Gothic";  */
   line-height: 50px;
   line-height: 1;
 }
@@ -76,7 +75,7 @@
 
 @media(max-width: 992px) {
   .title h1 {
-    font-family: "All Round Gothic"; 
+    font-family: 'Raleway', sans-serif;
     font-size: 2.875rem;
     margin-top: 230px;
   }
@@ -96,7 +95,7 @@
   }
 
   .title h1 {
-    font-family: "All Round Gothic"; 
+    font-family: 'Raleway', sans-serif;  
     font-size: 1.875rem;
   }
   .home .title,
@@ -108,17 +107,23 @@
   }
 
 
+  .person img {
+      display: none;
+    }
+  }
 
  
 
 
-.person img {
-    display: none;
-  }
-}
 
 @media (max-width: 600px) {
   .person img {
     display: none;
   }
 }
+
+@media (max-width: 400px) {
+    .title h1 {
+      margin-left: -60px;
+    }
+  }
