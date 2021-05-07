@@ -11,7 +11,7 @@ const Footer = () => {
       </a>
       
       <a
-          href="#"
+          href="https://www.facebook.com/gadou.dayan.1"
           target="_blank" rel="noreferrer"
         >
           <i class="fab fa-facebook"></i>
@@ -25,7 +25,7 @@ const Footer = () => {
       </a>
 
       <a
-          href="#" rel="noreferrer"
+          href="https://twitter.com/gadmtl86" rel="noreferrer"
           target="_blank" rel="noreferrer"
         >
           <i class="fab fa-twitter"></i>
